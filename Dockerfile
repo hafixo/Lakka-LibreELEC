@@ -18,7 +18,7 @@
 #    PROJECT=OdroidXU3 ARCH=arm scripts/build ppsspp
 #
 
-FROM ubuntu:focal
+FROM ubuntu:20.10
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
