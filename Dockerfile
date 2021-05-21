@@ -18,7 +18,7 @@
 #    PROJECT=OdroidXU3 ARCH=arm scripts/build ppsspp
 #
 
-FROM ubuntu:focal
+FROM ubuntu:groovy-20210416
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
